@@ -1,0 +1,26 @@
+{
+  "name": "cush-plugin-sass",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "description": "Sass for cush",
+  "repository": "cushJS/cush-plugin-sass",
+  "scripts": {
+    "build": "coffee-build src -o lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "node-sass": "^4.9.4",
+    "sass-lexer": "^1.0.1"
+  },
+  "devDependencies": {
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.3.0",
+    "wch-coffee": "*"
+  },
+  "peerDependencies": {
+    "cush": "^0.2.0"
+  }
+}
